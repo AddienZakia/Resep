@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/"
-  to = "https://masak-apa-tomorisakura.vercel.app/api/recipes"
-  status = 200
-  force = false
-  headers = {Access-Control-Allow-Origin: “*”}
