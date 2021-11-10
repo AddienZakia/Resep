@@ -1,0 +1,77 @@
+$custom-yellow: #ffbe0b;
+$br: 5px;
+
+#list_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em;
+
+  .menu_masakan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+
+    .list_masakan {
+      background-color: white;
+      box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.2),
+        -5px -5px 16px 0 rgba(255, 255, 255, 0.3);
+      width: 20em;
+      height: 22em;
+      position: relative;
+      border-radius: $br;
+
+      h2 {
+        font-size: 1em;
+        margin: 1em;
+        transition: 0.2s;
+        cursor: pointer;
+        text-align: start;
+
+        &:hover {
+          color: $custom-yellow;
+        }
+      }
+
+      img {
+        width: 100%;
+        border-radius: $br $br 0 0;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 1em;
+
+        .select {
+          display: flex;
+          align-items: center;
+
+          * {
+            margin: 0 5px;
+          }
+          p {
+            font-size: 0.7em;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+.loading_text {
+  text-align: center;
+  min-height: 40vh;
+  margin: 10em 3em;
+
+  p {
+    margin: 1em;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+}

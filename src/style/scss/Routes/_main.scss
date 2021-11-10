@@ -1,0 +1,99 @@
+$custom-yellow: #ffbe0b;
+
+h1 {
+  font-family: monospace;
+}
+
+.main_jombotron {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8em 5em;
+
+  section {
+    h1 {
+      letter-spacing: 1px;
+      font-size: 2em;
+    }
+    p {
+      font-weight: 600;
+      margin: 0.5em 0;
+    }
+
+    span {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: $custom-yellow;
+      border-radius: 5px;
+      padding: 0.5em 1em;
+      transition: 0.2s;
+
+      &:hover {
+        background-color: darken($color: $custom-yellow, $amount: 5%);
+      }
+    }
+  }
+}
+
+.main_features {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  text-align: center;
+
+  h1 {
+    margin-top: 1em;
+    font-size: 2em;
+  }
+
+  #description {
+    margin: 1em;
+    color: lighten($color: #000000, $amount: 50%);
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .fitur {
+      width: 15em;
+      margin: 1em;
+      padding: 2em;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.2),
+        -5px -5px 16px 0 rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+.main_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+
+  p {
+    text-align: center;
+  }
+
+  span {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: $custom-yellow;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: darken($color: $custom-yellow, $amount: 5%);
+    }
+  }
+}

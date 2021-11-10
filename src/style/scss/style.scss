@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+
+$custom-yellow: #ffbe0b;
+$custom-grey: #787a91;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto Mono", monospace;
+}
+
+// Header
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 5em;
+
+  .headeractiveBg {
+    display: none;
+  }
+
+  #logo {
+    font-weight: 600;
+    font-size: 1.5em;
+
+    span {
+      color: $custom-yellow;
+      font-size: 1.5em;
+    }
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      list-style-type: none;
+      margin: 1em;
+      text-align: center;
+
+      span {
+        color: black;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          color: $custom-grey;
+        }
+      }
+    }
+  }
+
+  #burger {
+    display: none;
+    cursor: pointer;
+  }
+}
+
+@import "./Components/card";
+@import "./Routes/main";
+@import "./Routes/recipes";
+@import "./Routes/recipesFood";
+@import "./Routes/saved";
+@import "./Components/footer";
+
+@import "./query";

@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  section {
+    background-color: #2b2d42;
+    padding: 4em;
+    color: lighten($color: #2b2d42, $amount: 20%);
+
+    h1 {
+      font-size: 2em;
+    }
+
+    p {
+      width: 50%;
+      margin: 0 auto;
+      font-weight: 600;
+    }
+  }
+
+  #copyright {
+    color: white;
+    background-color: #ffbe0b;
+    padding: 0.5em;
+  }
+}
