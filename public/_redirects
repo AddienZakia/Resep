@@ -1,4 +1,4 @@
 /api/recipes https://masak-apa-tomorisakura.vercel.app/api/recipes 200
 /api/recipe/:key https://masak-apa-tomorisakura.vercel.app/api/recipe/:key 200
 /api/recipes/:key https://masak-apa-tomorisakura.vercel.app/api/recipes/:key 200
-/api/search/?q=:query https://masak-apa-tomorisakura.vercel.app/api/search/?q=:query 200
+/api/search/ q=:query https://masak-apa-tomorisakura.vercel.app/api/search/?q=:query 200
