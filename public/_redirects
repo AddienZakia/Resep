@@ -1,2 +1,3 @@
 /api/recipes https://masak-apa-tomorisakura.vercel.app/api/recipes 200
 /api/recipe/:key https://masak-apa-tomorisakura.vercel.app/api/recipe/:key 200
+/favicon.ico https://cdn-icons.flaticon.com/png/512/2515/premium/2515263.png?token=exp=1636537503~hmac=0e6ee29e8ce7fe9fc431cd6d1ef51044 200
