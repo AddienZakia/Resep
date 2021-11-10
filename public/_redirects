@@ -1,3 +1,2 @@
-/ https://masak-apa-tomorisakura.vercel.app/api/recipes 200
-/recipes https://masak-apa-tomorisakura.vercel.app/api/recipes 200
+/api/recipes https://masak-apa-tomorisakura.vercel.app/api/recipes 200
 /recipe/:key https://masak-apa-tomorisakura.vercel.app/api/recipe/:key 200
