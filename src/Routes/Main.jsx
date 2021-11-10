@@ -18,7 +18,7 @@ export default function Main() {
       <div className="main_jombotron">
         <section>
           <h1>Masak apa hari ini ?</h1>
-          <p>Yuk cari menu masakan mu untuk hari inidddddddd</p>
+          <p>Yuk cari menu masakan mu untuk hari ini</p>
           <Link to="/recipes">
             <span>Explore</span>
           </Link>
