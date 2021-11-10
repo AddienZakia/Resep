@@ -61,8 +61,7 @@ export default function ListCard({ count }) {
 
     let fetchApi = () => {
       fetch("https://masak-apa-tomorisakura.vercel.app/api/recipes", {
-        signal: controller.signal,
-        mode: "no-cors",
+        signal: controller.signal
       })
         .then((res) => res.json())
         .then((data) => {
