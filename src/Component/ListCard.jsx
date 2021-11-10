@@ -60,7 +60,7 @@ export default function ListCard({ count }) {
     let controller = new AbortController();
 
     let fetchApi = () => {
-      fetch("/api/recipes", {
+      fetch("https://masak-apa-tomorisakura.vercel.app/api/recipes", {
         signal: controller.signal,
         mode: "no-cors",
       })
